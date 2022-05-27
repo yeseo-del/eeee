@@ -24,19 +24,19 @@ var growthBonus = 0;
 var currentPosition = 0;
 var unlockedFields = 1;
 
-var growthBasePrice = 10;
+var growthBasePrice = 0;
 
-var speedBasePrice = 50;
-var sizeBasePrice = 75;
-var tileBasePrice = 150;
+var speedBasePrice = 0;
+var sizeBasePrice = 0;
+var tileBasePrice = 0;
 
-var tickBasePrice = 5;
+var tickBasePrice = 0;
 
-var growthRateMultiplier = 1.2;
-var tickBaseMultiplier = 1.2;
-var mowerRateMultiplier = 2.5;
-var mowerSizeMultiplier = 1.5;
-var tileSizeMultiplier = 3.5;
+var growthRateMultiplier = 1;
+var tickBaseMultiplier = 1;
+var mowerRateMultiplier = 1;
+var mowerSizeMultiplier = 1;
+var tileSizeMultiplier = 1;
 var currentlyPrestiging = false;
 
 function Area(name, multiplierBuff, initialBuff, baseColor, grownColor, machineColor, unlockPrice, message, value, machineName, hmm){
